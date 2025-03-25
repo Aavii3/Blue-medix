@@ -1,0 +1,48 @@
+.dashboard {
+    padding: 20px;
+    text-align: center;
+}
+
+.section {
+    margin: 20px auto;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #112D4E;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: #0D1B2A;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #112D4E;
+    font-size: 16px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}

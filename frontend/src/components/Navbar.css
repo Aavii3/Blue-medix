@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #112D4E;
+    color: white;
+    padding: 10px 20px;
+    height: 60px;
+    margin-left: 200px; /* Push Navbar after Sidebar */
+    width: calc(100% - 200px);
+    position: fixed;
+    top: 0;
+}
+
+/* Fix Sidebar Button Size & Position */
+.menu-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: auto; /* Aligns button to the left */
+    width: auto; /* Prevents button from taking full width */
+}
+
+.menu-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Logo (Centered) */
+.nav-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 40px;
+}
+

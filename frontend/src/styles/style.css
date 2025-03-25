@@ -1,0 +1,32 @@
+/* Main Layout Adjustment */
+.main-container {
+    display: flex;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.sidebar-open .content {
+    margin-left: 250px; /* Moves content when sidebar is open */
+}
+
+.sidebar-closed .content {
+    margin-left: 60px; /* Adjusts content when sidebar is closed */
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    transition: margin-left 0.3s ease-in-out;
+}
+.app {
+    display: flex;
+}
+
+.main-content {
+    margin-left: 200px; /* Matches sidebar width */
+    width: calc(100% - 200px);
+    margin-top: 60px; /* Push content below Navbar */
+}
+
+.content {
+    padding: 20px;
+}
