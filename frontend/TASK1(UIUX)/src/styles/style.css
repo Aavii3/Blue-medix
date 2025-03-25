@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #112D4E;
+    color: white;
+    padding: 10px 20px;
+    height: 60px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.navbar.shifted {
+    margin-left: 200px;
+}
+
+.menu-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.logo {
+    height: 40px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    transition: width 0.3s ease-in-out;
+}
+
+.sidebar.closed {
+    width: 60px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    transition: background 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Dashboard */
+.dashboard {
+    flex: 1;
+    padding: 20px;
+    background: white;
+}
+
+.dashboard section {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}

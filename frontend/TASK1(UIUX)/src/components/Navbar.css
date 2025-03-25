@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #112D4E;
+    color: white;
+    padding: 10px 20px;
+    height: 60px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.navbar.shifted {
+    margin-left: 200px; /* Move navbar content when sidebar opens */
+}
+
+.menu-button {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.logo {
+    height: 45px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.navbar.shifted .logo {
+    margin-left: 20px; /* Shift logo when sidebar opens */
+}
