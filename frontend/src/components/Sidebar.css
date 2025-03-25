@@ -1,0 +1,42 @@
+.sidebar {
+    width: 200px;
+    height: 150vh;
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+    transition: width 0.3s ease-in-out;
+}
+
+.sidebar.closed {
+    width: 60px;
+    padding: 20px 5px; /* Reduce padding when collapsed */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.sidebar.closed ul li {
+    opacity: 0; /* Hide text when sidebar is closed */
+    transition: opacity 0.1s;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    transition: background 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
