@@ -11,6 +11,7 @@ Features
 *Secure & Responsive* - Works on all devices
 
 How to Run Locally
+
 1️⃣ Download/Clone the Repository
 git clone https://github.com/Aavii3/Blue-medix.git
 
